@@ -1,0 +1,1 @@
+Drag and drop a video onto the convert.bat file. It will ask you as starting and ending duration (in seconds) and will use the defined preset and save it in a folder called Converted in the directory of the video.
