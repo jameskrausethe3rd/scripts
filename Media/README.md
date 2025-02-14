@@ -1,14 +1,4 @@
-This script will create a shortcut in the Windows startup folder to launch a .vmx file on login.
+This script will remove images from the /RAW folder that don't exist in the /JPGs folder.
 
 How to use:
-1. Open a **PowerShell** window in **Administrator** mode.
-
-2. Execute this command to allow scripts to run:
-    ```
-    Set-ExecutionPolicy Bypass -Scope Process -Force
-    ```
-
-3. Then run:
-    ```
-    .\createVMwareAutostartShrotcut.ps1
-    ```
+1. Drag and Drop the parent directory containing the **RAW** and **JPGs** directory.
