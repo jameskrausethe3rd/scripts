@@ -1,0 +1,7 @@
+# config.ps1 - Configuration for syncLocalToRemote.ps1
+
+$remoteUser = "your-username"               # Remote system username
+$remoteHost = "your-remote-host"            # Remote system IP or hostname
+$privateKey = "C:\path\to\your\id_rsa"      # Path to SSH private key
+$localDir = "C:\path\to\local\directory"    # Path to local directory
+$remoteDir = "/path/to/remote/directory"    # Path to remote directory
