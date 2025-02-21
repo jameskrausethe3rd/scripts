@@ -21,7 +21,7 @@ if "%~1"=="" (
 set /p start_time="Enter start time (in seconds) (Press Enter for 0): "
 if "%start_time%"=="" set start_time=0
 
-set /p end_time="Enter end time (in seconds) (Press Enter to use full video length): "
+set /p end_time="Enter end time (in seconds from start time) (Press Enter to use full video length): "
 
 :: Process all dragged files or folders
 for %%F in (%*) do (
