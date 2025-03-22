@@ -8,7 +8,7 @@ set /p CLI_PATH=<"%~dp0path"
 set "HANDBRAKE_PATH=%CLI_PATH%\HandBrakeCLI.exe"
 
 :: Define path to the preset
-set "PRESET_FILE=%CLI_PATH%\presets\Dashcam.json"
+set "PRESET_FILE=%~dp0presets\Dashcam.json"
 
 :: Check if a file or folder was dragged onto the script
 if "%~1"=="" (
